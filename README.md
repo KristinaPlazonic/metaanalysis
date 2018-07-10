@@ -6,7 +6,7 @@
 ### Metaanalyses
 
 - folder `titles` has the csv files that were the result of pubmed search with: 
-    + since year 2000
+    + since year 2000  - based on the field "DateCompleted" on MedlineCitation, so some articles have NA
     + have `meta-analysis` or `systematic review` in the title
     + has tuberculosis in the title
     + each file's name begins with the keyword that was searched for in the abstract: e.g. keyword `gender` results in file `gender_titles_meta_tb_2000.csv` 
@@ -18,8 +18,9 @@
 ### All articles 
 
 Criteria:   
-    + since year 2000
-    + has tuberculosis in the title
-    + a specified keyword in the abstract
 
-- `number_of_tuberculosis_articles_since_2000.csv` is the number of hits in Pubmed corresponding with certain keywords. But it's all articles, not just meta-analyses. 
+    - since year 2000
+    - has tuberculosis in the title
+    - a specified keyword in the abstract
+
+`number_of_tuberculosis_articles_since_2000.csv` is the number of hits in Pubmed corresponding with certain keywords. But it's all articles, not just meta-analyses. 
